@@ -16,7 +16,9 @@ const TodoList = () => {
         <TodoItem item={todoItem} key={todoItem.id} />
       ))}
       </div>
-      <div style={{ display: 'flex', gap: '10px' }}>
+      <div
+      className="flex justify-center gap-10 w-full"
+       >
         <TodoItemCreator />
         {/* <TodoListFilters /> */}
       </div>

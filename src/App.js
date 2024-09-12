@@ -5,9 +5,9 @@ import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
-    <div className=" h-screen flex">
+    <div className="  h-screen flex">
 
-    <div className="  m-auto w-[400px]">
+    <div className=" px-2 sm:px-10 m-auto w-full max-w-[500px]">
       <h1 className="text-2xl font-semibold ">Todo List</h1>
       
       <RecoilRoot>
